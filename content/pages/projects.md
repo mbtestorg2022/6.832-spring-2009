@@ -12,11 +12,48 @@ The goal of the final project is to carry out a thoughtful experiment or analysi
 Project Components
 ------------------
 
-| COMPONENTS | DESCRIPTIONS |
-| --- | --- |
-| Proposal | A half-page description of the final project topic |
-| Presentation | An 8-minute discussion of your analysis and results |
-| Report | A 6-8 page, two-column paper similar to those found in conference proceedings 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+COMPONENTS
+{{< thclose >}}
+{{< thopen >}}
+DESCRIPTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Proposal
+{{< tdclose >}}
+{{< tdopen >}}
+A half-page description of the final project topic
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Presentation
+{{< tdclose >}}
+{{< tdopen >}}
+An 8-minute discussion of your analysis and results
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Report
+{{< tdclose >}}
+{{< tdopen >}}
+A 6-8 page, two-column paper similar to those found in conference proceedings
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 In the presentation, you should describe the problem you chose, explain why it is interesting or important, describe the technical approach you took, explain why you chose that approach, report results, and comment on implementation details. In the report, cover the same points as in the presentation but with more details on implementation.
 

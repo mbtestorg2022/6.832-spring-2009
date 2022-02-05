@@ -6,10 +6,187 @@ uid: 04c58ca0-0560-b9d1-6ca6-2691ea66babf
 
 Solutions are available for selected problems below. The solutions and selected MATLAB® files are courtesy of Rick E. Cory and John W. Roberts, and are used with permission.
 
-| ASSN # | TOPICS | PROBLEM SETS | SOLUTIONS |
-| --- | --- | --- | --- |
-| 1 |  {{< br >}}{{< br >}} Definition of underactuated {{< br >}}{{< br >}} The simple pendulum {{< br >}}{{< br >}} Optimal control of the double integrator {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mit6_832s09_pset01)) {{< br >}}{{< br >}} calc\_basin.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/calc_basin.m)) {{< br >}}{{< br >}} brick\_control.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/brick_control.m)) {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit6_832s09_sol_pset01)) |
-| 2 |  {{< br >}}{{< br >}} Value iteration on the double integrator {{< br >}}{{< br >}} Pontryagin minimum principle {{< br >}}{{< br >}} Swing-up and balance for the cart-pole system {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mit6_832s09_pset02)) {{< br >}}{{< br >}} brick\_vi.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/brick_vi.m)) {{< br >}}{{< br >}} cartpole.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/cartpole.m)) {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Problem 1: brick\_vi\_sol.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/brick_vi_sol.m)) {{< br >}}{{< br >}} Problem 2 ([PDF]({{< baseurl >}}/resources/mit6_832s09_sol_pset02)) {{< br >}}{{< br >}} The solution to Problem 3 is unavailable. {{< br >}}{{< br >}}  |
-| 3 |  {{< br >}}{{< br >}} Optimal swing-up for the simple pendulum {{< br >}}{{< br >}} Single-pump swing-up for the cart-pole {{< br >}}{{< br >}} The rimless wheel {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mit6_832s09_pset03)) {{< br >}}{{< br >}} pend\_snopt.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/pend_snopt.m)) {{< br >}}{{< br >}} pendfun.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/pendfun.m)) {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} The solutions to Problems 1 and 2 are unavailable. {{< br >}}{{< br >}} Problem 3: rimlessWheel.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/rimlessWheel.m)) {{< br >}}{{< br >}}  |
-| 4 |  {{< br >}}{{< br >}} The spring loaded inverted pendulum {{< br >}}{{< br >}} Motion planning with rapidly-exploring random trees {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mit6_832s09_pset04)) {{< br >}}{{< br >}} slip.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/slip.m)) {{< br >}}{{< br >}}  | The solutions are unavailable. |
-| 5 |  {{< br >}}{{< br >}} The weight-perturbation algorithm {{< br >}}{{< br >}} Temporal difference learning {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/mit6_832s09_pset05)) {{< br >}}{{< br >}} cartpole\_wp.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/cartpole_wp.m)) {{< br >}}{{< br >}} markov\_td.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/markov_td.m)) {{< br >}}{{< br >}}  | The solutions are unavailable.
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ASSN #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+PROBLEM SETS
+{{< thclose >}}
+{{< thopen >}}
+SOLUTIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Definition of underactuated
+
+The simple pendulum
+
+Optimal control of the double integrator
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/mit6_832s09_pset01))
+
+calc\_basin.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/calc_basin.m))
+
+brick\_control.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/brick_control.m))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_832s09_sol_pset01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Value iteration on the double integrator
+
+Pontryagin minimum principle
+
+Swing-up and balance for the cart-pole system
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/mit6_832s09_pset02))
+
+brick\_vi.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/brick_vi.m))
+
+cartpole.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/cartpole.m))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem 1: brick\_vi\_sol.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/brick_vi_sol.m))
+
+Problem 2 ([PDF]({{< baseurl >}}/resources/mit6_832s09_sol_pset02))
+
+The solution to Problem 3 is unavailable.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Optimal swing-up for the simple pendulum
+
+Single-pump swing-up for the cart-pole
+
+The rimless wheel
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/mit6_832s09_pset03))
+
+pend\_snopt.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/pend_snopt.m))
+
+pendfun.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/pendfun.m))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The solutions to Problems 1 and 2 are unavailable.
+
+Problem 3: rimlessWheel.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/rimlessWheel.m))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The spring loaded inverted pendulum
+
+Motion planning with rapidly-exploring random trees
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/mit6_832s09_pset04))
+
+slip.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/slip.m))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+The solutions are unavailable.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The weight-perturbation algorithm
+
+Temporal difference learning
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/mit6_832s09_pset05))
+
+cartpole\_wp.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/cartpole_wp.m))
+
+markov\_td.m ([M](/courses/electrical-engineering-and-computer-science/6-832-underactuated-robotics-spring-2009/assignments/markov_td.m))
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+The solutions are unavailable.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

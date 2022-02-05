@@ -30,63 +30,592 @@ LaValle, Steven M. _Planning Algorithms_. New York, NY: Cambridge University Pre
 
 The readings below come from the course notes "Underactuated Robotics: Learning, Planning, and Control for Efficient and Agile Machines."
 
-| SES # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 |  {{< br >}}{{< br >}} Fully- vs. under-actuated systems {{< br >}}{{< br >}} Preliminaries {{< br >}}{{< br >}}  | Chapter 1 and Appendix A |
-| 2 | Nonlinear dynamics of the simple pendulum | Chapter 2 |
-| 3 |  {{< br >}}{{< br >}} Introduction to optimal control {{< br >}}{{< br >}} Double-integrator examples {{< br >}}{{< br >}}  | Chapter 9 |
-| 4 |  {{< br >}}{{< br >}} Double integrator (cont.) {{< br >}}{{< br >}} Quadratic regulator (Hamilton-Jacobi-Bellman (HJB) sufficiency), min-time control (Pontryagin) {{< br >}}{{< br >}}  | Chapter 10 |
-| 5 | Dynamic programming and value interation: grid world, double integrator, and pendulum examples |  {{< br >}}{{< br >}} Chapter 9 (cont.) {{< br >}}{{< br >}}  |
-| 6 | Acrobot and cart-pole: controllability, partial feedback linearization (PFL), and energy shaping | Chapter 3 |
-| 7 | Acrobot and cart-pole (cont.) | Chapter 3 (cont.) |
-| 8 | Policy search: open-loop optimal control, direct methods, and indirect methods | Chapter 12 |
-| 9 | Policy search (cont.): trajectory stabilization, iterative linear quadratic regulator (iLQR), differential dynamic programming (DDP) | Chapter 12 (cont.) |
-| 10 | Simple walking models: rimless wheel, compass gait, kneed compass gait | Chapter 5 |
-| 11 | Feedback control for simple walking models | Chapter 5 (cont.) |
-| 12 | Simple running models: spring-loaded inverted pendulum (SLIP), Raibert hoppers | Chapter 6 |
-| 13 | Motion planning: Dijkstra's, A-star | Chapter 13 |
-| 14 | Randomized motion planning: rapidly-exploring randomized trees and probabilistic road maps | Chapter 13 (cont.) |
-| 15 | Feedback motion planning: planning with funnels, linear quadratic regulator (LQR) trees | Chapter 14 |
-| 16 | Function approximation and system identification | Chapter 8 and Appendix B |
-| 17 | Model systems with uncertainty: state distribution dynamics and state estimation | Chapter 8 (cont.) |
-| 18 | Stochastic optimal control | Chapter 15 |
-| 19 | Aircraft | Chapter 7 |
-| 20 | Swimming and flapping flight | Chapter 7 (cont.) |
-| 21 | Randomized policy gradient | Chapter 17 |
-| 22 | Randomized policy gradient (cont.) | Chapter 17 (cont.) |
-| 23 | Model-free value methods: temporal difference learning and Q-learning | Chapter 16 |
-| 24 |  {{< br >}}{{< br >}} Actor-critic methods {{< br >}}{{< br >}} Final project presentations {{< br >}}{{< br >}}  | Chapter 18 |
-| 25 | Final project presentations |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Fully- vs. under-actuated systems
+
+Preliminaries
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 1 and Appendix A
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Nonlinear dynamics of the simple pendulum
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction to optimal control
+
+Double-integrator examples
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Double integrator (cont.)
+
+Quadratic regulator (Hamilton-Jacobi-Bellman (HJB) sufficiency), min-time control (Pontryagin)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 10
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Dynamic programming and value interation: grid world, double integrator, and pendulum examples
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Chapter 9 (cont.)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Acrobot and cart-pole: controllability, partial feedback linearization (PFL), and energy shaping
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Acrobot and cart-pole (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 3 (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Policy search: open-loop optimal control, direct methods, and indirect methods
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Policy search (cont.): trajectory stabilization, iterative linear quadratic regulator (iLQR), differential dynamic programming (DDP)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 12 (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Simple walking models: rimless wheel, compass gait, kneed compass gait
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Feedback control for simple walking models
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 5 (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Simple running models: spring-loaded inverted pendulum (SLIP), Raibert hoppers
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Motion planning: Dijkstra's, A-star
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 13
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Randomized motion planning: rapidly-exploring randomized trees and probabilistic road maps
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 13 (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Feedback motion planning: planning with funnels, linear quadratic regulator (LQR) trees
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 14
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Function approximation and system identification
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 8 and Appendix B
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Model systems with uncertainty: state distribution dynamics and state estimation
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 8 (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Stochastic optimal control
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 15
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Aircraft
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Swimming and flapping flight
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 7 (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Randomized policy gradient
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 17
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Randomized policy gradient (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 17 (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Model-free value methods: temporal difference learning and Q-learning
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 16
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Actor-critic methods
+
+Final project presentations
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 18
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Final project presentations
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< anchor "Course_Notes" >}}{{< /anchor >}}Course Notes
 --------------------------------------------------------
 
 Selected chapters from the course notes are available below. Updated revisions of the course notes are available [here](http://groups.csail.mit.edu/locomotion/pubs.html).
 
-| CHAPTERS | TOPICS |
-| --- | --- |
-| Front | Title page, table of contents, and preface ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_preface)) |
-| 1 | Fully actuated vs. underactuated systems ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch01)) |
-| {{< td-colspan 2 >}}**I. Nonlinear dynamics and control**{{< /td-colspan >}} ||
-| 2 | The simple pendulum ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch02)) |
-| 3 | The acrobot and cart-pole ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch03)) |
-| 4 | Manipulation |
-| 5 | Walking ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch05)) |
-| 6 | Running |
-| 7 | Flight |
-| 8 | Model systems with stochasticity |
-| {{< td-colspan 2 >}}**II. Optimal control and motion planning**{{< /td-colspan >}} ||
-| 9 | Dynamic programming ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch09)) |
-| 10 | Analytical optimal control with the Hamilton-Jacobi-Bellman sufficiency theorem ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch10)) |
-| 11 | Analytical optimal control with Pontryagin's minimum principle |
-| 12 | Trajectory optimization ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch12)) |
-| 13 | Feasible motion planning |
-| 14 | Global policies from local policies |
-| 15 | Stochastic optimal control |
-| 16 | Model-free value methods |
-| 17 | Model-free policy search ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch17)) |
-| 18 | Actor-critic methods |
-| {{< td-colspan 2 >}}**IV. Applications and extensions**{{< /td-colspan >}} ||
-| 19 | Learning case studies and course wrap-up |
-| Appendix |  {{< br >}}{{< br >}} A. Robotics preliminaries ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_appa)) {{< br >}}{{< br >}} B. Machine learning preliminaries {{< br >}}{{< br >}}  |
-| Back | References ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_refs))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+CHAPTERS
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Front
+{{< tdclose >}}
+{{< tdopen >}}
+Title page, table of contents, and preface ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_preface))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Fully actuated vs. underactuated systems ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="2" >}}
+**I. Nonlinear dynamics and control**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+The simple pendulum ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+The acrobot and cart-pole ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Manipulation
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Walking ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Running
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Flight
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Model systems with stochasticity
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="2" >}}
+**II. Optimal control and motion planning**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Dynamic programming ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch09))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Analytical optimal control with the Hamilton-Jacobi-Bellman sufficiency theorem ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Analytical optimal control with Pontryagin's minimum principle
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Trajectory optimization ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Feasible motion planning
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Global policies from local policies
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Stochastic optimal control
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Model-free value methods
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Model-free policy search ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_ch17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Actor-critic methods
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="2" >}}
+**IV. Applications and extensions**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Learning case studies and course wrap-up
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Appendix
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+A. Robotics preliminaries ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_appa))
+
+B. Machine learning preliminaries
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Back
+{{< tdclose >}}
+{{< tdopen >}}
+References ([PDF]({{< baseurl >}}/resources/mit6_832s09_read_refs))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
