@@ -5,6 +5,7 @@ description: 'Course notes on simple models of walking robots, the control probl
   in the literature. '
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-832-underactuated-robotics-spring-2009/6e83e58917c403fdc98d2d96260661ce_MIT6_832s09_read_ch05.pdf
 file_type: application/pdf
+parent_uid: d49b78fe-f56d-f97f-9681-953c45ae4447
 resourcetype: Document
 title: Walking
 uid: 6e83e589-17c4-03fd-c98d-2d96260661ce
